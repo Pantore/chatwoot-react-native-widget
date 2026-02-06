@@ -11,6 +11,9 @@ chatwoot-react-native-widget
 
 <img src="https://user-images.githubusercontent.com/12408980/203909820-938136a6-bf5b-433e-9f68-d7f28a1303be.png" alt="screenshot" width="350">
 
+### Fork updated to address React Native 0.79 API changes
+This fork from the original chatwoot repository aims to solve problems that stem from React Native's 0.79 API changes that were not addressed in the original repository
+
 ### Installation
 
 Install the library using either yarn or npm like so:
