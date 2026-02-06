@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "patch-package"
   },
   "dependencies": {
     "react-native-modal": "^13.0.1"
@@ -24,6 +25,8 @@
     "husky": "^5.1.3",
     "lint-staged": "^10.5.4",
     "metro-react-native-babel-preset": "^0.65.2",
+    "patch-package": "^8.0.1",
+    "postinstall-postinstall": "^2.1.0",
     "prettier": "^2.2.1"
   },
   "husky": {
